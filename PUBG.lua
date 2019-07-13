@@ -12,7 +12,7 @@ end
 
 HOME = 1
 function HOME()
-MN = gg.choice({"☕ ᴘᴇʀsᴘᴇᴄᴛɪᴠᴇ ᴍᴇɴᴜ ","☕ ʟᴏʙʙʏ/ʟᴀɴᴅɪɴɢ ᴍᴇɴᴜ","☕ ʙʏᴘᴀss ᴍᴇɴᴜ","☕ ᴏᴛʜᴇʀ ᴍᴇɴᴜ","ʜᴇʟᴘ🙇","⎋ᴇxɪᴛ"
+MN = gg.choice({"☕ ᴘᴇʀsᴘᴇᴄᴛɪᴠᴇ ᴍᴇɴᴜ ","☕ ʟᴏʙʙʏ/ʟᴀɴᴅɪɴɢ ᴍᴇɴᴜ","☕ ʙʏᴘᴀss ᴍᴇɴᴜ","☕ ᴏᴛʜᴇʀ ᴍᴇɴᴜ","⎋ᴇxɪᴛ"
 },nil,os.date"☕ ᴀᴅɪᴛʏᴀ ᴘʀɪᴠᴀᴛᴇ sᴄʀɪᴘᴛ ☕\n🎉 sᴄʀɪᴘᴛ ᴠᴇʀsɪᴏɴ sʙᴘ 🎉\n💎 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ʏᴛ ᴄʜᴇᴀᴛ 💎\n🛡️Today:%d, Month %m🛡️\n🛡️Time: %X🛡️")
 if MN == nil then
 else
@@ -20,8 +20,7 @@ if MN == 1 then WH() end
 if MN == 2 then LBB() end
 if MN == 3 then BYPASS() end
 if MN == 4 then OTHER() end
-if MN == 5 then HELP() end
-if MN == 6 then
+if MN == 5 then
     CLOSE()
  end
   end
@@ -846,31 +845,7 @@ gg.getResults(100)
 gg.editAll("-980", 16)
 end
 
-function HELP()
- LAW = gg.choice({"🕵️ ʜᴏᴡ ᴛᴏ ʀᴇɢɪsᴛᴇʀ ᴛᴏ ᴀᴅᴍɪɴ?","🕵️ ᴡʜʏ ɪ ɢᴏᴛ ʙᴀɴɴᴇᴅ?","🕵️ ᴡʜᴇɴ sᴄʀɪᴘᴛ ᴜᴘᴅᴀᴛᴇ?","⎋ᴇxɪᴛ"
-  },nil,"☕ ᴀᴅɪᴛʏᴀ ᴘʀɪᴠᴀᴛᴇ sᴄʀɪᴘᴛ ☕\n🎉 sᴄʀɪᴘᴛ ᴠᴇʀsɪᴏɴ sʙᴘ 🎉\n💎 ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ʏᴛ ᴄʜᴇᴀᴛ 💎")
-if LAW == nil then
-else
-if LAW == 1 then QNA1() end
-if LAW == 2 then QNA2() end
-if LAW == 3 then QNA3() end
-if LAW == 4 then
-    HOME()
- end
-  end
- PUBGMH = -1
-  end
 
-
-function QNA1()
-gg.alert("ǫ.ʜᴏᴡ ᴛᴏ ʀᴇɢɪsᴛᴇʀ?\nᴀ.sᴄʀᴇᴇɴsʜᴏᴏᴛ ʏᴏᴜʀ ᴅᴇᴠɪᴄᴇ ɪᴅ ᴀɴᴅ ɪᴍᴇɪ\nᴛʜᴇɴ sᴇɴᴅ ᴛᴏ ᴀᴅᴍɪɴ\n\nʏᴏᴜʀ ᴅᴇᴠɪᴄᴇ ɪᴅ:" .. L0_0.ANDROID_ID .. "\nɪᴍᴇɪ:" .. L0_0.IMEI .. "")
-end
-function QNA2()
-gg.alert("ǫ.ᴡʜʏ ɪ ɢᴏᴛ ʙᴀɴɴᴇᴅ?\nᴀ.ʙᴇᴄᴀᴜsᴇ ʏᴏᴜʀ ʜᴏsᴛs ɴᴏᴛ sᴛʀᴏɴɢᴇ ᴛʀʏ ᴏᴛʜᴇʀ ʜᴏsᴛs ᴏʀ ᴄʜᴀɴɢᴇ ʟᴏᴄᴀʟ ɪᴘ ʜᴏsᴛs")
-end
-function QNA3()
-gg.alert("ǫ.ᴡʜᴇɴ sᴄʀɪᴘᴛ ᴜᴘᴅᴀᴛᴇ?\nᴀ.sᴄʀɪᴘᴛ ᴜᴘᴅᴀᴛᴇ ᴇᴠᴇʀʏ ɢᴀᴍᴇ ᴜᴘᴅᴀᴛᴇ")
-end
 
 
 
