@@ -5,7 +5,7 @@ gg.sleep(500)
 for i = 1, 10 do
     for i = 1, t do
         local j = t - i
-        gg.toast(('   '):rep(i)..'❤️'..('   '):rep(j)..'⊙')
+        gg.toast(('   '):rep(i)..'🛡️'..('   '):rep(j)..'⊙')
         gg.sleep(70)
     end
 end
